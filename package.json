@@ -7,9 +7,9 @@
     "build": "next build",
     "start": "next start",
     "export": "next export"
- 
   },
   "dependencies": {
+    "@netlify/plugin-next": "^0.0.4",
     "@sendgrid/mail": "^7.4.4",
     "next": "^14.0.4",
     "react": "^18.2.0",

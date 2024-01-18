@@ -1,3 +1,3 @@
 module.exports = {  // other exports  
-    target: 'serverless', // add this line
+    output: "standalone", // add this line
 };
