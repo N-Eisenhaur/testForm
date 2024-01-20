@@ -1,8 +1,11 @@
 [build]
   command = "npm run build"
   functions = "out_functions"
-  publish   = "out_publish"
+  publish   = ""
 
 [[plugins]]
   package = "@netlify/plugin-next"
-[[redirects]]  from = "/*"  to = "/index.html"  status = 200
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
