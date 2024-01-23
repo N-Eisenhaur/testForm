@@ -5,7 +5,14 @@
 
 [[plugins]]
   package = "@netlify/plugin-next"
+
+[[plugins]]
+  package = "@netlify/plugin-emails"
+
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
+
